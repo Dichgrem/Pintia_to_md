@@ -1,0 +1,15 @@
+{
+  "name": "pintia-export",
+  "version": "1.0.0",
+  "description": "Export problems from Pintia platform",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "export": "npx tsx export-selected.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3"
+  }
+}
