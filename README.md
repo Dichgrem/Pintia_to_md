@@ -13,7 +13,7 @@
 ## 安装依赖
 
 ```bash
-npm install
+bun install
 ```
 
 ## 使用方法
@@ -21,13 +21,13 @@ npm install
 ### 运行导出脚本
 
 ```bash
-npm run export
+bun run export
 ```
 
 或直接使用：
 
 ```bash
-npx tsx export-selected.ts
+bun run export-selected.ts
 ```
 
 ### 交互式流程
@@ -114,17 +114,6 @@ npx tsx export-selected.ts
 
 暂不支持命令行参数，使用交互式选择。
 
-## 文件结构
-
-```
-pintia-export/
-├── export-selected.ts      # 主导出脚本
-├── pintia-api.ts          # Pintia API 封装
-├── types.ts               # 类型定义
-├── package.json
-├── tsconfig.json
-└── README.md
-```
 
 ## 输出格式
 

@@ -1,2 +1,14 @@
-# Ignore node dependencies
+# Dependencies
 node_modules/
+
+# Bun
+.bun/
+
+# Output files
+*.md
+
+# Logs
+*.log
+
+# OS
+.DS_Store
