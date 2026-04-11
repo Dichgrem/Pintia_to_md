@@ -27,7 +27,7 @@ bun run export
 或直接使用：
 
 ```bash
-bun run export-selected.ts
+bun run src/export-selected.ts
 ```
 
 ### 交互式流程

@@ -1,9 +1,9 @@
 {
-  "name": "pintia-export",
-  "version": "1.0.0",
-  "description": "Export problems from Pintia platform",
-  "private": true,
-  "scripts": {
-    "export": "bun run export-selected.ts"
-  }
+	"name": "pintia-export",
+	"version": "1.0.0",
+	"description": "Export problems from Pintia platform",
+	"private": true,
+	"scripts": {
+		"export": "bun run src/export-selected.ts"
+	}
 }
